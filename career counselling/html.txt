@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAREER WIZARD</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <!--creating navigation bar-->
+    <nav class="navbar background">
+        <ul class="nav-list"> 
+            <div class="logo"><img src="logo.png" alt="Logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <!--creating 2nd part-->
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Thinking About Your Career?</p>
+                <p class="text-small">A Successful Career Is Just One Step Away!! </p>
+            </div>
+            <div class="secondHalf">
+                <img src="img1.jpg" alt="Counsellor image">
+            </div>
+        </div>
+    </section>
+    <!--3rd part-->
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">What Is Career Counseling?</p>
+        <p class="sectionSubTag text-small">Your career development is a lifelong process that, whether you know it or not, actually started when you were born! There are a number of factors that influence your career development, including your interests, abilities, values, personality, background, and circumstances. Career Counseling is a process that will help you to know and understand yourself and the world of work in order to make career, educational, and life decisions.
+        Career development is more than just deciding on a major and what job you want to get when you graduate. It really is a lifelong process, meaning that throughout your life you will change, situations will change, and you will continually have to make career and life decisions. The goal of Career Counseling is to not only help you make the decisions you need to make now, but to give you the knowledge and skills you need to make future career and life decisions.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img2.webp" alt="huh!" class="imgfluid">
+        </div>    
+    </section>
+    <!--4th part-->
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">Who is a Career Counselor?</p>
+        <p class="sectionSubTag text-small">The Career Services staff member assisting you holds a masters degree and has expertise in career development theory, counseling techniques, administration and interpretation of assessments, and career information resources. Career Counselors have masters degrees in Counseling or Career Counseling.
+
+            Your job search/ career attainment process is also a critical aspect of your career development, and therefore, Job Search Advising and Career Counseling are intertwined. Your Career Counselor is also fully trained to assist with all aspects of your job search.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img3.webp" alt="huh!" class="imgfluid">
+        </div>    
+    </section>
+    <!--5th part-->
+    <section class="section " id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">Reasons Why Career Counselling is Important</p>
+        <p class="sectionSubTag text-small">When students are presented with endless career options to choose from, there comes a time when they have to make a decision but the problem of lack of knowledge and awareness about good career fields stops them from taking any good decision. That’s where career counselling comes to aid.Before the student is suggested options to choose from concerning a career option, it is best to start by understanding the mental conditioning and the true capabilities of the person.
+            
+            In many instances, it would be evident that it is possible to correct certain aspects of a person and more so if the individual is on the younger side. However, this must be done professionally that it does benefit the student.Once the student has been put through the paces to find his strengths and weakness, the next progression would be to suggest the options available on hand that would be in tune with his abilities.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img4.jpeg" alt="huh!" class="imgfluid">
+        </div>    
+    </section> 
+    <!--contact form-->
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input class="form-input" type="phone" name="name" id="phone" placeholder="Enter Your Phone No.">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Career of Interest"></textarea>
+            <button class="btn">Submit</button>
+        </div>
+    </section>
+</body>
+</html>
